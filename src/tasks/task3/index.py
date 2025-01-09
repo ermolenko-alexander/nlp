@@ -4,7 +4,7 @@ import pickle
 from sentence_transformers import SentenceTransformer
 import click
 from tqdm import tqdm
-from datasets import load_dataset  # Импортируем библиотеку datasets
+from datasets import load_dataset
 
 @click.command()
 @click.option('--index_file', default='faiss_index.bin', help='Файл для сохранения FAISS индекса.')
