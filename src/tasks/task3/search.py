@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# search.py
-
 import faiss
 import pickle
 from sentence_transformers import SentenceTransformer
